@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>General Store</title>
+</head>
+<body>
+   
+    <div id="div1">
+        <h1>General Store</h1>
+        <hr>
+        <form onsubmit="adduser(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="for-name" name="name">
+            <label for="description">Description:</label>
+            <input type="text" id="for-description" name="description">
+            <label for="price">Price:</label>
+            <input type="number" name="price" id="for-price">
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" id="for-quantity">
+
+
+            <button type="submit" id="button">Add</button>
+        </form>
+    </div>
+    
+    <div id="user-list-div">
+        <ul id="list-of-user"></ul>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js"></script>
+
+    <script src="/index.js"></script> 
+</body>
+</html>
